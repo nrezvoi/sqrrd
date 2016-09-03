@@ -34,7 +34,7 @@ textarea {
   padding: 20px; }
 
 .content-settings, #about, #works {
-  padding-top: 100px; }
+  padding-top: 160px; }
   .content-settings p, #about p, #works p {
     margin: 30px 0;
     font-size: 18px; }
@@ -63,8 +63,14 @@ textarea {
   visibility: hidden;
   transition: all 0.4s; }
 
-#langs {
+header {
   position: fixed;
+  left: 0;
+  right: 0;
+  height: 110px; }
+
+#langs {
+  position: absolute;
   top: 30px;
   right: 42px;
   z-index: 999; }
@@ -102,9 +108,8 @@ textarea {
     margin-bottom: 30px; }
 
 #nav {
-  position: fixed;
+  position: absolute;
   z-index: 999;
-  /*left: calc(50% - calc(452px / 2));*/
   top: 30px;
   left: 50%;
   transform: translateX(-50%); }
@@ -132,21 +137,32 @@ textarea {
       align-self: center; }
     #nav #nav-wrap a:nth-child(3) {
       align-self: flex-end; }
+  #nav #nav-coll {
+    position: absolute;
+    top: 0;
+    display: none; }
+    #nav #nav-coll #nav-icon {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background: url(../img/menu_icon.png) no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer; }
 
 #about {
   background-color: #4a3372;
-  color: #fff; }
+  color: #fff;
+  transition: all 0.3s; }
 
 #works {
   background-color: #ffef91;
-  color: #000; }
+  color: #000;
+  transition: all 0.3s; }
 
 #contact {
-  padding-top: 100px;
+  padding-top: 160px;
   background-color: #c9326d;
-  color: #fff; }
-
-#contact {
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
