@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+section {
+    height: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+input,
+textarea {
+    display: block;
+}
+
+.content-wrapper {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-settings {
+    padding-top: 200px;
+
+    p {
+        margin: 30px 0;
+        font-size: 18px;
+    }
+
+    .line {
+        display: inline-block;
+        width: 120px;
+        height: 2px
+    }
+
+    .line.ab {
+        background-color: #fff;
+    }
+
+    .line.wr {
+        background-color: #000;
+    }
+}
+
+#scrollTop {
+    display: inline-block;
+    position: fixed;
+    right: 40px;
+    bottom: 25px;
+    cursor: pointer;
+    font-weight: 100;
+    width: 50px;
+    height: 50px;
+    background: url(../img/scrolltop.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+

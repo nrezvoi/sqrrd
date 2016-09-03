@@ -1,0 +1,206 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:100,400,900";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Raleway', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900; }
+
+section {
+  height: 100%;
+  min-height: 100vh; }
+
+h2 {
+  font-size: 52px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+input,
+textarea {
+  display: block; }
+
+.content-wrapper {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px; }
+
+.content-settings, #about, #works {
+  padding-top: 200px; }
+  .content-settings p, #about p, #works p {
+    margin: 30px 0;
+    font-size: 18px; }
+  .content-settings .line, #about .line, #works .line {
+    display: inline-block;
+    width: 120px;
+    height: 2px; }
+  .content-settings .line.ab, #about .line.ab, #works .line.ab {
+    background-color: #fff; }
+  .content-settings .line.wr, #about .line.wr, #works .line.wr {
+    background-color: #000; }
+
+#scrollTop {
+  display: inline-block;
+  position: fixed;
+  right: 40px;
+  bottom: 25px;
+  cursor: pointer;
+  font-weight: 100;
+  width: 50px;
+  height: 50px;
+  background: url(../img/scrolltop.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s; }
+
+#langs {
+  position: fixed;
+  top: 30px;
+  right: 42px;
+  z-index: 999; }
+  #langs .active {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px; }
+  #langs a {
+    margin-left: 22px; }
+    #langs a:first-child {
+      margin-left: 0; }
+
+#main {
+  background: url(../img/main.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+  #main #logosslogan {
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    text-align: center; }
+    #main #logosslogan p {
+      margin-top: 40px;
+      color: #fff;
+      font-size: 36px;
+      max-width: 600px;
+      font-weight: 100; }
+    #main #logosslogan img {
+      max-width: 80%; }
+  #main span {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px; }
+
+#nav {
+  position: fixed;
+  z-index: 999;
+  /*left: calc(50% - calc(452px / 2));*/
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%); }
+  #nav #nav-wrap {
+    display: flex;
+    width: 452px;
+    max-width: 452px;
+    height: 146px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 32px 20px 16px; }
+    #nav #nav-wrap a {
+      position: relative; }
+      #nav #nav-wrap a .nav-line {
+        display: inline-block;
+        height: 2px;
+        background-color: #fff;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+    #nav #nav-wrap a:first-child {
+      align-self: flex-start; }
+    #nav #nav-wrap a:nth-child(2) {
+      align-self: center; }
+    #nav #nav-wrap a:nth-child(3) {
+      align-self: flex-end; }
+
+#about {
+  background-color: #4a3372;
+  color: #fff; }
+
+#works {
+  background-color: #ffef91;
+  color: #000; }
+
+#contact {
+  padding-top: 200px;
+  background-color: #c9326d;
+  color: #fff; }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  #contact .form-wrapper {
+    max-width: 600px;
+    width: 100%; }
+  #contact #contact-form {
+    margin-top: 30px; }
+    #contact #contact-form input,
+    #contact #contact-form textarea {
+      margin-top: 22px;
+      border: 2px solid #fff;
+      padding: 10px 10px 10px 10px;
+      background-color: rgba(255, 255, 255, 0);
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Raleway', sans-serif;
+      outline: none; }
+    #contact #contact-form input::-webkit-input-placeholder,
+    #contact #contact-form textarea::-webkit-input-placeholder {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px; }
+    #contact #contact-form input::-moz-placeholder,
+    #contact #contact-form textarea::-moz-placeholder {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px; }
+    #contact #contact-form input:-ms-input-placeholder,
+    #contact #contact-form textarea:-ms-input-placeholder {
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px; }
+    #contact #contact-form input {
+      max-width: 300px;
+      width: 100%;
+      height: 54px; }
+    #contact #contact-form textarea {
+      resize: none;
+      width: 100%;
+      max-width: 600px; }
+    #contact #contact-form #submit-btn {
+      display: inline-block;
+      width: 48px;
+      height: 32px;
+      background: url(../img/submit.png) no-repeat;
+      border: 0;
+      cursor: pointer;
+      background-size: 100% 100%;
+      float: right; }
+  #contact span {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */
