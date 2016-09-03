@@ -34,7 +34,7 @@ textarea {
   padding: 20px; }
 
 .content-settings, #about, #works {
-  padding-top: 200px; }
+  padding-top: 100px; }
   .content-settings p, #about p, #works p {
     margin: 30px 0;
     font-size: 18px; }
@@ -142,7 +142,7 @@ textarea {
   color: #000; }
 
 #contact {
-  padding-top: 200px;
+  padding-top: 100px;
   background-color: #c9326d;
   color: #fff; }
 
