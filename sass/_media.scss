@@ -14,3 +14,15 @@
         height: 38px;
     }
 }
+
+@media (max-width: 767px) {
+    header #langs a {
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

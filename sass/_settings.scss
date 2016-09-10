@@ -63,7 +63,7 @@ textarea {
 #scrollTop {
     display: inline-block;
     position: fixed;
-    right: 40px;
+    right: 30px;
     bottom: 25px;
     cursor: pointer;
     font-weight: 100;
@@ -87,8 +87,6 @@ textarea {
     width: 0%;
     background-color: #fff;
     transition: width 0.2s ease, background-color 0.2s ease;
-
-   
 }
 
 .menu-after-text {
