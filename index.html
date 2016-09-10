@@ -11,25 +11,21 @@
 <body>
 
     <header>
-        <div id="hd-wrapper">
-            <div id="langs">
-                <a href="#" class="active">en</a>
-                <a href="#">ee</a>
-                <a href="#">ru</a>
-            </div>
-            <div id="nav">
-                <div id="nav-wrap">
-                    <a href="#about" id="nav-ab">about<span class="nav-line"></span>
-                </a>
-                    <a href="#works" id="works-fix"> works<span class="nav-line"></span>
-                </a>
-                    <a href="#contact" id="nav-contacts">contact<span class="nav-line"></span>
-                </a>
-                </div>
-                <div id="nav-coll">
-                    <span id="nav-icon"></span>
-                </div>
-            </div>
+        <div id="menu">
+            <a href="javascript:void(0)" id="open-menu">menu
+                <span class="bottom-line"></span>
+            </a>
+        </div>
+        <div id="langs">
+            <a href="#" class="active">en
+                <span class="bottom-line"></span>
+            </a>
+            <a href="#">ee
+                <span class="bottom-line"></span>
+            </a>
+            <a href="#">ru
+                <span class="bottom-line"></span>
+            </a>
         </div>
     </header>
     <section id="main">
@@ -72,10 +68,47 @@
                 </form>
             </div>
         </div>
-        <span>Copyright © 2016, SQRRD. All rights reserved</span>
+        <span style="padding: 0 90px">Copyright © 2016, SQRRD. All rights reserved</span>
     </section>
 
     <a href="#main"><span id="scrollTop"> </span></a>
+
+    <div class="overlay overlay-hugeinc">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about" class="close-menu">
+                        <img src="img/menu_circle.svg" alt="circle" class="menu-circle">
+                        <img src="img/about_icon.svg" alt="about" class="menu-item">
+                    </a>
+                </li>
+                <li>
+                    <a href="#works" class="close-menu">
+                        <img src="img/menu_circle.svg" alt="circle" class="menu-circle">
+                        <img src="img/works_icon.svg" alt="works" class="menu-item">
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="close-menu">
+                        <img src="img/menu_circle.svg" alt="circle" class="menu-circle">
+                        <img src="img/contacts_icon.svg" alt="contacts" class="menu-item">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="close-menu">
+                        <img src="img/menu_circle.svg" alt="circle" class="menu-circle">
+                        <img src="img/close_icon.svg" alt="close" class="menu-item">
+                    </a>
+                </li>
+                <li>
+                    <a href="#main" class="close-menu">
+                        <img src="img/menu_circle.svg" alt="circle" class="menu-circle">
+                        <img src="img/top_icon.svg" alt="top" class="menu-item">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
