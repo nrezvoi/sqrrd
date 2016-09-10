@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     html, body {
         font-size: 14px;
     }
@@ -13,9 +13,7 @@
         width: 38px;
         height: 38px;
     }
-}
 
-@media (max-width: 767px) {
     header #langs a {
         margin-left: 0px;
         display: block;

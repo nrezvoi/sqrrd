@@ -2,12 +2,12 @@
      position: fixed;
      left: 0;
      right: 0;
-     top: 30px;
+     top: 20px;
      height: 110px;
      //outline: 1px solid #eee;
      #menu {
          position: absolute;
-         left: 30px;
+         left: 20px;
          a {
              font-size: 1.3rem;
              &:hover .bottom-line {
@@ -18,7 +18,7 @@
      #langs {
          position: absolute;
          top: 0;
-         right: 30px;
+         right: 20px;
          .active .bottom-line {
              width: 100%;
          }

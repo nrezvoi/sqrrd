@@ -172,11 +172,11 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  top: 30px;
+  top: 20px;
   height: 110px; }
   header #menu {
     position: absolute;
-    left: 30px; }
+    left: 20px; }
     header #menu a {
       font-size: 1.3rem; }
       header #menu a:hover .bottom-line {
@@ -184,7 +184,7 @@ header {
   header #langs {
     position: absolute;
     top: 0;
-    right: 30px; }
+    right: 20px; }
     header #langs .active .bottom-line {
       width: 100%; }
     header #langs a {
@@ -291,14 +291,14 @@ header {
 @media (max-width: 900px), (max-height: 500px) {
   .overlay ul li a span {
     font-size: 0.9rem; } }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   html, body {
     font-size: 14px; }
 
   #scrollTop {
     width: 38px;
-    height: 38px; } }
-@media (max-width: 767px) {
+    height: 38px; }
+
   header #langs a {
     margin-left: 0px;
     display: block;
