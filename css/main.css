@@ -75,8 +75,7 @@ textarea {
   background-color: #fff;
   transition: width 0.2s ease, background-color 0.2s ease; }
 
-.menu-after-text, .overlay nav ul li:first-child a:after, .overlay nav ul li:nth-child(2) a:after, .overlay nav ul li:nth-child(3) a:after, .overlay nav ul li:nth-child(4) a:after, .overlay nav ul li:last-child a:after {
-  content: "";
+.menu-after-text {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -130,24 +129,14 @@ textarea {
             top: 50%; }
         .overlay nav ul li:first-child .menu-item {
           height: 60%; }
-        .overlay nav ul li:first-child a:after {
-          content: "ABOUT"; }
         .overlay nav ul li:nth-child(2) .menu-item {
           height: 50%; }
-        .overlay nav ul li:nth-child(2) a:after {
-          content: "WORKS"; }
         .overlay nav ul li:nth-child(3) .menu-item {
           height: 45%; }
-        .overlay nav ul li:nth-child(3) a:after {
-          content: "CONTACTS"; }
         .overlay nav ul li:nth-child(4) .menu-item {
           height: 50%; }
-        .overlay nav ul li:nth-child(4) a:after {
-          content: "CLOSE"; }
         .overlay nav ul li:last-child .menu-item {
           height: 30%; }
-        .overlay nav ul li:last-child a:after {
-          content: "TOP"; }
 
 .overlay-hugeinc {
   opacity: 0;

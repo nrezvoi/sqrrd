@@ -92,7 +92,6 @@ textarea {
 }
 
 .menu-after-text {
-    content: "";
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -154,45 +153,26 @@ textarea {
                     .menu-item {
                         height: 60%;
                     }
-                    a:after {
-                        content: "ABOUT";
-                        @extend .menu-after-text;
-                    }
+                   
                 }
                 &:nth-child(2) {
                     .menu-item {
                         height: 50%;
-                    }
-                    a:after {
-                        content: "WORKS";
-                        @extend .menu-after-text;
                     }
                 }
                 &:nth-child(3) {
                     .menu-item {
                         height: 45%;
                     }
-                    a:after {
-                        content: "CONTACTS";
-                        @extend .menu-after-text;
-                    }
                 }
                 &:nth-child(4) {
                     .menu-item {
                         height: 50%;
                     }
-                    a:after {
-                        content: "CLOSE";
-                        @extend .menu-after-text;
-                    }
                 }
                 &:last-child {
                     .menu-item {
                         height: 30%;
-                    }
-                    a:after {
-                        content: "TOP";
-                        @extend .menu-after-text;
                     }
                 }
             }
